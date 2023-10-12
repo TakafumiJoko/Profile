@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+header,
+#about,
+#bicycle {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px 10px;
+}
+
+#main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#mainvisual {
+  margin: 0 15px;
+  background-image: url("img/mainvisual.jpg");
+  height: 500px;
+  padding-bottom: 50px;
+}
+
+#about,
+#bicycle {
+  margin-top: 15px;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+h1 {
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+#about,
+#bicycle {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#about h2,
+#bicycle h2 {
+  display: inline;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#about-contents {
+  width: 50%;
+  margin: 20px auto 0;
+  display: flex;
+  gap: 10px;
+}
+
+#about-contents img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+#about-contents div {
+  flex: 1;
+}
+
+#about-contents h3,
+#about-contents p {
+  text-align: left;
+}
+
+#about-contents h3,
+#bicycle-contents h3 {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+#about-contents p,
+#bicycle-contents p {
+  font-size: 10px;
+}
+
+#bicycle-contents {
+  width: 80%;
+  margin: 20px auto 0;
+  display: flex;
+  gap: 5px;
+}
+
+#bicycle-contents img {
+  width: 100%;
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
